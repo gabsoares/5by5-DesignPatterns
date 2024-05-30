@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_5by5_Controllers</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\5by5-Models\5by5-Models.csproj" />
+    <ProjectReference Include="..\5by5-Services\5by5-Services.csproj" />
+  </ItemGroup>
+
+</Project>
